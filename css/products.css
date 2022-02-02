@@ -1,0 +1,148 @@
+.products__wrapper { 
+    position: relative;
+}
+.products__sub-wrapper { 
+    background-color: var(--first-brand-color);
+}
+.products {
+    text-align: center;
+    padding: 20rem 0;
+    position: relative;
+    z-index: 2;
+}
+.products .container {
+    position: relative;
+}
+.products__title {
+    font-family: var(--title-font);
+    font-size: 5rem;
+}
+.sub-title__box {
+    position: relative;
+    margin-bottom: 3rem;
+    max-width: 140rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prod__title {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+.success-message {
+    background-color: var(--success);
+    font-family: var(--title-font);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    margin-bottom: 2rem;
+}
+.success-message > * {
+    font-family: inherit;
+    font-size: inherit;
+}
+.success-message--active {
+    opacity: 1;
+    visibility: visible;
+}
+.products .sub-title {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+.products .item {
+    position: relative;
+    padding-top: 5rem;
+}
+.product__block {
+    padding: 6rem;
+    position: relative;
+    transition: all .3s ease-in-out;
+    max-width: 50rem;
+    margin: 0 auto;
+
+    background-color: var(--main-bg-color);
+}
+.img-1, .img-2 {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.img-1 {
+    bottom: 0;    
+}
+.img-2 {
+    top: 0;
+}
+.img-3, .img-4 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: 90%; 
+    transform: translate(0, -50%);
+}
+.img-3 {
+    left: -1.5rem; 
+}
+.img-4 {
+    right: -1.5rem;
+}
+.product__img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: var(--main-bg-color);
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.product__img-box .img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 40rem;
+    max-height: 40rem;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.product__text-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.product__name {
+    font-size: 2rem;
+    display: block;
+}
+
+.product__price {
+    font-size: 2.3rem;
+    display: block;
+    font-family: var(--title-font);
+}
+
+.product__block .btn--first {
+  margin-right: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 1440px) { 
+  
+}
+
+
+
