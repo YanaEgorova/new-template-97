@@ -120,9 +120,7 @@
                    <li class="footer__item">
                      <a href="./privacy.html" class="footer__link">Privacy Notice</a>
                     </li>
-                    <li class="footer__item">
-                      <a href="./cancellation.html" class="footer__link">Cancellation</a>
-                    </li>
+                  
                 </ul>
               </div>
               <div class="footer__block">
